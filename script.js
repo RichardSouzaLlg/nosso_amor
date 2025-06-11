@@ -88,7 +88,7 @@ function updateDaysTogether() {
   const diffTime = today - startDate;
   const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
   document.getElementById("daysTogether").textContent =
-    `Estamos juntos há ${diffDays} dias <br> (pelo menos foi quando nosso amor ficou mais intenso... ja tinha safadezas antes rs) 💞`;
+    `Estamos juntos há ${diffDays} dias (pelo menos foi quando nosso amor ficou mais intenso... ja tinha safadezas antes rs) 💞`;
 }
 updateDaysTogether();
 
