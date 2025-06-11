@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Emilly, te amo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bg-music" src="audio/musica.mp3" autoplay loop></audio>
+
+  <div class="container">
+    <h1>🌹 Feliz Dia dos Namorados minha garota 🌹</h1>
+    <p class="intro">Para o amor da minha vida... eu realmente não sabia bem como agir no dia de hoje </br> 
+        e acabei fazendo o que sei fazer melhor </br> e onde mais posso me 
+        esforçar e entregar algo que possa demonstrar meus <br> sentimentos e o quanto você significa pra mim </p>
+    <button onclick="startLove()">Entrar no nosso mundo 💖</button>
+
+    <div class="love-content hidden">
+        <p class="days-counter" id="daysTogether"></p>
+      <div class="phrase-box" id="phraseBox">Você é tudo para mim 💘</div>
+      <button onclick="nextPhrase()">Próxima frase</button>
+      <div class="heart" onclick="showDeclaration()">💗</div>
+      <p id="declaration" class="hidden">Eu faria tudo por você. Você é meu mundo, meu apoio e meu lar, meu porto seguro, aquela pessoa que posso contar pra desabafar e me consolar.</p>
+        <div id="proposal" class="hidden proposal-box">
+            <p>Quer passar todos os dias da sua vida comigo? 💍</p>
+             <button onclick="acceptLove()">Sim, meu amor 💖</button>
+        </div>
+        <p id="accepted" class="hidden">Você acabou de deixar meu mundo ainda mais perfeito! 💗</p>
+
+    </div>
+  </div>
+
+  <canvas id="stars"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
